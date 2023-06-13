@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naviagtion_options"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.example.travelour.home.FragmentHome"
+        android:label="Home"
+        tools:layout="@layout/activity_fragment_home"/>
+
+    <fragment android:id="@+id/navigation_groups"
+        android:name="com.example.travelour.groups.fragment_groups"
+        android:label="Groups"
+        tools:layout="@layout/activity_fragment_groups"/>
+
+    <fragment android:id="@+id/navigation_profile"
+        android:name="com.example.travelour.profile.profile_fragment"
+        android:label="Profile"
+        tools:layout="@layout/activity_profile_fragment"/>
+
+    <fragment android:id="@+id/navigation_settings"
+        android:name="com.example.travelour.settings.fragment_settings"
+        android:label="Settings"
+        tools:layout="@layout/activity_fragment_settings"/>
+
+
+</navigation>

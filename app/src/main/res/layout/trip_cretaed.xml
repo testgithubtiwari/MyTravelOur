@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_16sdp"
+    app:cardCornerRadius="@dimen/_12sdp"
+    android:layout_margin="@dimen/_12sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_12sdp"
+            android:padding="@dimen/_6sdp"
+            android:background="@drawable/bottom_nav_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trip Title"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_16ssp"
+                android:id="@+id/triptitle"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_2sdp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start Location"
+                    android:textSize="@dimen/_16ssp"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:id="@+id/start"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destination"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_16ssp"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:id="@+id/end"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_3sdp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Members count"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_16ssp"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:id="@+id/count"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of trip"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_16ssp"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:id="@+id/tripDate"/>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update Trip"
+                    android:backgroundTint="#B005F1A6"
+                    android:textColor="#B0000000"
+                    android:textAllCaps="false"
+                    android:id="@+id/update"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

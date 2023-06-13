@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055638098433",
+    "project_id": "travelour-31666",
+    "storage_bucket": "travelour-31666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055638098433:android:772de24675e8b12574e600",
+        "android_client_info": {
+          "package_name": "com.example.travelour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055638098433-n1nh18kj8q0m6mc6hndakfbq0np71lbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi7uwhmyKz5P6NV9kpdIx0HLNRhedcb_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055638098433-n1nh18kj8q0m6mc6hndakfbq0np71lbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

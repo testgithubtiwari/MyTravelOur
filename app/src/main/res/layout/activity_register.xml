@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/background_login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_3sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/login_backgroun"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:gravity="center"
+                android:text="Create Account"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_25ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="Name"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your name"
+                android:padding="@dimen/_3sdp"
+                android:inputType="textEmailAddress"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="Email"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your Email-Id"
+                android:padding="@dimen/_3sdp"
+                android:inputType="textEmailAddress"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="Contact Number"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your contact number"
+                android:padding="@dimen/_3sdp"
+                android:inputType="number"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="Vehicle Id number"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your vehicle Id number"
+                android:padding="@dimen/_3sdp"
+                android:inputType="number"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:text="Password"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtpassowrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your Password"
+                android:padding="@dimen/_3sdp"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:text="Password Again"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtpassowrdagain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your Password again"
+                android:padding="@dimen/_3sdp"
+                android:inputType="number"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/registerbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:backgroundTint="#C12FCFA2"
+                android:text="Register!"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/ic_signuptravel"
+            android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/_3sdp"/>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.fragment_settings"
+    android:background="@drawable/settings_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_28sdp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:background="@drawable/login_backgroun"
+            android:padding="@dimen/_10sdp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_profile1"
+                android:id="@+id/profilepic"
+                android:layout_marginTop="@dimen/_12sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_3sdp"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_6sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose your profile Pic !!"
+                android:textSize="@dimen/_13sdp"
+                android:id="@+id/choosepic"
+                android:layout_marginRight="@dimen/_6sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Pic"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#BC03DA07"
+                    android:id="@+id/uploadpic"/>
+            </LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:padding="@dimen/_6sdp"
+                app:cardElevation="@dimen/_6sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                app:cardBackgroundColor="#D303DAC5">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Name"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:id="@+id/tvname"
+                    android:textSize="@dimen/_14ssp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Email"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:id="@+id/tvemail"
+                    android:textSize="@dimen/_14ssp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Conatct Numer"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:id="@+id/tvcontact"
+                    android:textSize="@dimen/_14ssp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Vehicle Id Numer"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:id="@+id/tvvehicle"
+                        android:textSize="@dimen/_14ssp"/>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Update Details"
+                android:textAllCaps="false"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:backgroundTint="#B00FDB61"
+                android:textColor="#B4FFFFFF"
+                android:id="@+id/updateProfile"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

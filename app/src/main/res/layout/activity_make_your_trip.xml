@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeYourTrip"
+    android:background="@drawable/background_login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_3sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/login_backgroun"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:gravity="center"
+                android:text="Make your Trip"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_25ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="Trip Name"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edttripname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your trip-name"
+                android:padding="@dimen/_3sdp"
+                android:inputType="text"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="Start Location"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtstartLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your starting point"
+                android:padding="@dimen/_3sdp"
+                android:inputType="text"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="Destination"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtdestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Enter your destination point"
+                android:padding="@dimen/_3sdp"
+                android:inputType="text"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:text="Date of Trip"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtdateofTrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Choose your date"
+                android:padding="@dimen/_3sdp"
+                android:inputType="date"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:text="Number of members in the trip"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtmemeberct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/edittextborder"
+                android:hint="Number of members"
+                android:inputType="number"
+                android:padding="@dimen/_3sdp"/>
+
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/createTrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:backgroundTint="#C12FCFA2"
+                android:text="Create Trip!!"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/ic_tripbook"
+            android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/_3sdp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
