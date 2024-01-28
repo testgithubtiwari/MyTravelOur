@@ -21,6 +21,7 @@ gradle build
 ####  Run on your simulator or in physical device by tap on the run icon in Android Studio.
 
 
+<<<<<<< HEAD
 ## Challenges and solutions
 ##### 1) Layout Complexity: Managed interconnected layouts for seamless navigation.
 ##### 2) Database Structure: Designed Firebase database structure for efficient data retrieval.
